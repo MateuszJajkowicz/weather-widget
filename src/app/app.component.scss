@@ -27,3 +27,16 @@
   justify-content: space-evenly;
   align-items: center;
 }
+
+@media (max-height: 340px) {
+  .box{
+    height: auto;
+    width: 640px;
+    flex-direction: row;
+    align-content: space-between;
+  }
+
+  .card{
+    width: 200px;
+  }
+}
